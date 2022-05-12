@@ -1,113 +1,97 @@
-https://jnorteman91.github.io/Updated-Portfolio/
 
-# Updated-Portfolio
-Updated Portfolio Page
+# 02 Advanced CSS: Portfolio
 
+## Your Task
 
-Overview
+Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
 
-Now that you've had some practice with HTML and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
+A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
 
-If you are opting out of career services, this is still a required assignment. Part of being a web developer means being a part of a community. Having a place to share your projects is necessary if you're applying for jobs, but is still critical on your journey as a developer.
+With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
 
+**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
 
-Before you Begin
-
-
-
-Pin some repos that you want to share
+Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
 
 
-Navigate to your GitHub Profile
+## User Story
 
-Click "Customize your pinned repositories"
-Click the "Repositories you contribute to" checkbox (this will allow you to "pin" Project 1 even if you aren't the "owner")
-Click the checkboxes for your project and 2-3 homework assignments that you would like to share
-Make sure each of these projects is deployed and add a link to the deployed project in their README files
-
-
-
-Revisit your portfolio page
+```
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
 
 
-Open up your old portfolio page
-Read through the rest of the homework requirements and decide whether you can update your existing portfolio page or if you want to start fresh now that you've had some more HTML/CSS practice (you may also want to change it to be a single page instead of multiple pages or you might even want to consider using a paid theme)
+## Acceptance Criteria
+
+Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+
+```
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+```
 
 
+## Mock-Up
+
+The following animation shows the web application's appearance and functionality:
+
+![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
 
 
+## Grading Requirements
 
-Required: Update your Portfolio Site -- Employer Ready
+This homework is graded based on the following criteria: 
 
-To receive a passing grade on this assignment, you should meet the following
-content and design requirements. These are aligned with what you will need to be
-employer ready.
+### Technical Acceptance Criteria: 40%
 
+* Satisfies all of the above acceptance criteria.
 
-Content
+### Deployment: 32%
 
-Your updated site should have the following content:
+* Application deployed at live URL.
 
+* Application loads with no errors.
 
-Your name
-Links to your GitHub profile & LinkedIn page as well as your email address
+* Application GitHub URL submitted.
 
-List of projects. For each project make sure you have the following:
+* GitHub repository contains application code.
 
+### Application Quality: 15%
 
-Project title
-Link to the deployed version
-Link to the code on GitHub
+* Application resembles the mock-up functionality provided in the homework instructions.
 
+### Repository Quality: 13%
 
+* Repository has a unique name.
 
+* Repository follows best practices for file structure and naming conventions.
 
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-Design
+* Repository contains multiple descriptive commit messages.
 
-The content of your portfolio page is a lot more important than the aesthetics. That said, there are a couple basic requirements your portfolio page should meet:
+* Repository contains quality readme with description, screenshot, link to deployed application.
 
+## Review
 
-Mobile-friendliness: you don't need advanced responsive styles, but you should ensure that your portfolio page is still readable on different screen sizes
-Readability: make sure the font size is large enough to read, and that the colors don't cause eye strain.
+You are required to submit BOTH of the following for review:
 
+* The URL of the deployed application.
 
+* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
-Suggested: Update Portfolio -- Employer Competitive
-
-To receive an "A" on this assignment, you should also meet the following requirements
-to ensure your portfolio site will help you be employer competitive.
-
-
-Competitive Content
-
-
-At least 3 deployed projects
-
-External content:
-
-
-Update your LinkedIn with the projects you've worked on so far
-Update the README for each project you linked to with a description of the problem,
-how you solved it, and some information about your technical approach
-Suggested: refactor some of your code from earlier assignments to make them more readable
-
-
-
-
-
-Competitive Design
-
-Unfortunately, this is where it gets a little bit subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
-
-
-Mobile-first design: you should be proud to pull out your phone and share
-your portfolio site with a friend, family member, or someone at a meetup.
-Polish: choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site.
-Images: add a meaningful screenshot for each of your projects
-
-
-If you want a slick-looking site, but don't feel good about your CSS skills,
-check out CV, Resume, and Portfolio site templates on ThemeForest
+- - -
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
